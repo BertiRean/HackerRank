@@ -30,7 +30,7 @@ def get_median(p_Values, p_N):
         median /= 2.0
         return round(median, 1)
     else:
-        return round(sorted_values[(p_N/2) - 1]/2, 1)
+        return round(sorted_values[(p_N/2)], 1)
 
 
 def get_mode(p_Values, p_N):
